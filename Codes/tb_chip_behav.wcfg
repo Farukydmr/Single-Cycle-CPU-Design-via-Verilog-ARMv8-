@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_chip_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_chip" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="75.001 ns"></ZoomEndTime>
+      <Cursor1Time time="75.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="189"></NameColumnWidth>
+      <ValueColumnWidth column_width="85"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/tb_chip/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/uut/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/uut/pc_out" type="array">
+      <obj_property name="ElementShortName">pc_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/uut/pc_next" type="array">
+      <obj_property name="ElementShortName">pc_next[63:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_next[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/uut/pc_plus_4" type="array">
+      <obj_property name="ElementShortName">pc_plus_4[63:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_plus_4[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/uut/branch_target" type="array">
+      <obj_property name="ElementShortName">branch_target[63:0]</obj_property>
+      <obj_property name="ObjectShortName">branch_target[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/uut/instr" type="array">
+      <obj_property name="ElementShortName">instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/uut/read_data1" type="array">
+      <obj_property name="ElementShortName">read_data1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/uut/read_data2" type="array">
+      <obj_property name="ElementShortName">read_data2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/uut/alu_result" type="array">
+      <obj_property name="ElementShortName">alu_result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/uut/mem_read_data" type="array">
+      <obj_property name="ElementShortName">mem_read_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_read_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/uut/write_back_data" type="array">
+      <obj_property name="ElementShortName">write_back_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">write_back_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/uut/ext_imm" type="array">
+      <obj_property name="ElementShortName">ext_imm[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ext_imm[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/uut/alu_in2" type="array">
+      <obj_property name="ElementShortName">alu_in2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_in2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/uut/m1" type="logic">
+      <obj_property name="ElementShortName">m1</obj_property>
+      <obj_property name="ObjectShortName">m1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/uut/m2" type="logic">
+      <obj_property name="ElementShortName">m2</obj_property>
+      <obj_property name="ObjectShortName">m2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/uut/m3" type="logic">
+      <obj_property name="ElementShortName">m3</obj_property>
+      <obj_property name="ObjectShortName">m3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/uut/m5" type="logic">
+      <obj_property name="ElementShortName">m5</obj_property>
+      <obj_property name="ObjectShortName">m5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/uut/RWEn" type="logic">
+      <obj_property name="ElementShortName">RWEn</obj_property>
+      <obj_property name="ObjectShortName">RWEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/uut/DWEn" type="logic">
+      <obj_property name="ElementShortName">DWEn</obj_property>
+      <obj_property name="ObjectShortName">DWEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/uut/DREn" type="logic">
+      <obj_property name="ElementShortName">DREn</obj_property>
+      <obj_property name="ObjectShortName">DREn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/uut/isZero" type="logic">
+      <obj_property name="ElementShortName">isZero</obj_property>
+      <obj_property name="ObjectShortName">isZero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/uut/read2_reg_addr" type="array">
+      <obj_property name="ElementShortName">read2_reg_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">read2_reg_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/uut/m4" type="array">
+      <obj_property name="ElementShortName">m4[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m4[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_chip/uut/ALUop" type="array">
+      <obj_property name="ElementShortName">ALUop[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUop[1:0]</obj_property>
+   </wvobject>
+</wave_config>
