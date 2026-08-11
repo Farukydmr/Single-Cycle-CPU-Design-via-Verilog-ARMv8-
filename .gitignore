@@ -1,0 +1,21 @@
+# Vivado log ve journal dosyaları
+*.jou
+*.log
+*.str
+*.pb
+
+# Vivado geçici proje klasörleri
+.Xil/
+*.sim/
+*.cache/
+*.hw/
+*.ip_user_files/
+
+# Simülasyon çıktıları ve veritabanları
+*.wdb
+*.vcd
+xsim.dir/
+
+# İşletim sistemi kalıntıları (Windows/Mac vb.)
+.DS_Store
+Thumbs.db
